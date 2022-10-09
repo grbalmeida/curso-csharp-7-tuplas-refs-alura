@@ -7,7 +7,8 @@ namespace CSharp73_novidades
         static void Main(string[] args)
         {
             //TesteTuples.TestaIgualdade();
-            TesteTuples.TestaIgualdade2();
+            //TesteTuples.TestaIgualdade2();
+            TesteTuples.MaisAlgunsCasos();
         }
     }
 }
