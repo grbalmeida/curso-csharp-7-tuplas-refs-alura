@@ -9,7 +9,8 @@ namespace CSharp73_novidades
             //TesteTuples.TestaIgualdade();
             //TesteTuples.TestaIgualdade2();
             //TesteTuples.MaisAlgunsCasos();
-            ExpressionVariables.TestaExpressionVariables();
+            //ExpressionVariables.TestaExpressionVariables();
+            ExpressionVariables.RegistroDeAlunos();
         }
     }
 }
