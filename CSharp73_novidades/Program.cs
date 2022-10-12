@@ -14,8 +14,10 @@ namespace CSharp73_novidades
             //ReatribuicaoEmRefs.TestaRefs();
             //ReatribuicaoEmRefs.TestaRefsForEach();
             //BackfieldAttribute.Testa();
-            var deInstanciaOuEstatico = new DeInstanciaOuEstatico();
-            deInstanciaOuEstatico.TestaSobreCarga();
+            //var deInstanciaOuEstatico = new DeInstanciaOuEstatico();
+            //deInstanciaOuEstatico.TestaSobreCarga();
+            var melhoriaEmSobrecargaDeMetodoGenerico = new MelhoriaEmSobrecargaDeMetodoGenerico();
+            melhoriaEmSobrecargaDeMetodoGenerico.TestaMelhoria();
         }
     }
 }

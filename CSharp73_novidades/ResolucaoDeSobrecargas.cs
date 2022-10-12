@@ -21,4 +21,53 @@ namespace CSharp73_novidades
             Console.WriteLine(mensagem);
         }
     }
+
+    class ImplementaIDisposable : IDisposable
+    {
+        public void Dispose()
+        {
+            
+        }
+
+        public override string ToString()
+        {
+            return "ImplementaIDisposable";
+        }
+    }
+
+    class MelhoriaEmSobrecargaDeMetodoGenerico
+    {
+        public void TestaMelhoria()
+        {
+            short numero = 1;
+            EscreveMensagem("Mensagem", numero);
+            EscreveMensagem("Mensagem", 2);
+            EscreveMensagem("Mensagem", 3);
+            EscreveMensagem(new ImplementaIDisposable(), 10);
+        }
+
+        public void EscreveMensagem<T>(T objeto, short numero)
+        {
+            for (short i = 0; i < numero; i++)
+            {
+                Console.WriteLine(objeto);
+            }
+        }
+
+        public void EscreveMensagem<T>(T objeto, int numero) where T : IDisposable
+        {
+            for (int i = 0; i < numero; i++)
+            {
+                Console.WriteLine(objeto);
+            }
+        }
+
+        public void EscreveMensagem<T>(T objeto, double numero)
+        {
+            for (double i = 0; i < numero; i++)
+            {
+                Console.WriteLine(objeto);
+            }
+        }
+    }
 }
