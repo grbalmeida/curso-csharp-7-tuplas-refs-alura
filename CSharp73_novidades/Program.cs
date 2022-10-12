@@ -11,7 +11,8 @@ namespace CSharp73_novidades
             //TesteTuples.MaisAlgunsCasos();
             //ExpressionVariables.TestaExpressionVariables();
             //ExpressionVariables.RegistroDeAlunos();
-            ReatribuicaoEmRefs.TestaRefs();
+            //ReatribuicaoEmRefs.TestaRefs();
+            ReatribuicaoEmRefs.TestaRefsForEach();
         }
     }
 }
