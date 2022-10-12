@@ -13,7 +13,9 @@ namespace CSharp73_novidades
             //ExpressionVariables.RegistroDeAlunos();
             //ReatribuicaoEmRefs.TestaRefs();
             //ReatribuicaoEmRefs.TestaRefsForEach();
-            BackfieldAttribute.Testa();
+            //BackfieldAttribute.Testa();
+            var deInstanciaOuEstatico = new DeInstanciaOuEstatico();
+            deInstanciaOuEstatico.TestaSobreCarga();
         }
     }
 }
