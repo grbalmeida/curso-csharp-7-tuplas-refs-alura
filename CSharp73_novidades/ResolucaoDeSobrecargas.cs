@@ -71,7 +71,7 @@ namespace CSharp73_novidades
         }
     }
 
-    class TesteDeSobrecarga
+    class MelhoriaEmSobrecargaDeDelegates
     {
         public void Teste()
         {

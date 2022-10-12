@@ -18,8 +18,8 @@ namespace CSharp73_novidades
             //deInstanciaOuEstatico.TestaSobreCarga();
             //var melhoriaEmSobrecargaDeMetodoGenerico = new MelhoriaEmSobrecargaDeMetodoGenerico();
             //melhoriaEmSobrecargaDeMetodoGenerico.TestaMelhoria();
-            var testeDeSobrecarga = new TesteDeSobrecarga();
-            testeDeSobrecarga.Teste();
+            var melhoriaEmSobrecargaDeDelegates = new MelhoriaEmSobrecargaDeDelegates();
+            melhoriaEmSobrecargaDeDelegates.Teste();
         }
     }
 }
