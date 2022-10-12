@@ -70,4 +70,21 @@ namespace CSharp73_novidades
             }
         }
     }
+
+    class TesteDeSobrecarga
+    {
+        public void Teste()
+        {
+            TestaDelegate(int.Parse);
+            TestaDelegate(EscreveMensagem);
+        }
+
+        public void TestaDelegate(Func<string, int> func) =>
+            Console.WriteLine("Func<string, int>");
+
+        public void TestaDelegate(Action<string> action) =>
+            Console.WriteLine("Action<string>");
+
+        public void EscreveMensagem(string a) => Console.WriteLine(a);
+    }
 }

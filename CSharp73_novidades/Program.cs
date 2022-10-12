@@ -16,8 +16,10 @@ namespace CSharp73_novidades
             //BackfieldAttribute.Testa();
             //var deInstanciaOuEstatico = new DeInstanciaOuEstatico();
             //deInstanciaOuEstatico.TestaSobreCarga();
-            var melhoriaEmSobrecargaDeMetodoGenerico = new MelhoriaEmSobrecargaDeMetodoGenerico();
-            melhoriaEmSobrecargaDeMetodoGenerico.TestaMelhoria();
+            //var melhoriaEmSobrecargaDeMetodoGenerico = new MelhoriaEmSobrecargaDeMetodoGenerico();
+            //melhoriaEmSobrecargaDeMetodoGenerico.TestaMelhoria();
+            var testeDeSobrecarga = new TesteDeSobrecarga();
+            testeDeSobrecarga.Teste();
         }
     }
 }
